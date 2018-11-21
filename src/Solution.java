@@ -13,6 +13,6 @@ class Solution {
                 }
             }
         }
-        return null;
+        throw new RuntimeException("invalid input");
     }
 }
